@@ -1,7 +1,9 @@
 <html>
-<frameset cols="25%,75%">
-    <frame src="frame_a.htm" />
-    <frame src="frame_b.htm" />
-</frameset>
-
-</html>
+#include <stdio.h>
+    int main() {
+    int i, j, r;
+    //printf("1\n");
+    printf("Enter the number of Rows: ");
+    scanf("%d",&r);
+    for (i = 1; i <= r; i++) { for (j=1; j <=i; j++) { if(i==1 || j==1){ printf("1"); }else if(i==2 && j==2){
+        printf("%d",i); }else if(j==i){ printf("%d",j); }else{ printf("*"); } } printf("\n"); } return 0; } </html>
