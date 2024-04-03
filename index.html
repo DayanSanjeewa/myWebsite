@@ -1,9 +1,108 @@
+<!DOCTYPE html>
+
 <html>
-#include <stdio.h>
-    int main() {
-    int i, j, r;
-    //printf("1\n");
-    printf("Enter the number of Rows: ");
-    scanf("%d",&r);
-    for (i = 1; i <= r; i++) { for (j=1; j <=i; j++) { if(i==1 || j==1){ printf("1"); }else if(i==2 && j==2){
-        printf("%d",i); }else if(j==i){ printf("%d",j); }else{ printf("*"); } } printf("\n"); } return 0; } </html>
+
+<head>
+    <meta charset="utf-8">
+    <title>My Personal Site</title>
+    <style>
+        body {
+            background-color: antiquewhite;
+        }
+    </style>
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+</head>
+
+
+<body>
+    <table cellspacing="20">
+        <tr>
+            <td>
+                <img src="images/alt-profile.png" alt="My profile picture">
+            </td>
+            <td>
+                <h1>Dayan Sanjeewa</h1>
+                <p><em>Temporary Demonstrator at
+                        <strong><a href="https://fas.wyb.ac.lk/cmis-home/staff/">WUSL</a></strong></em></p>
+                <p class="desc">I am the most laziest person on earth and, I love coding.</p>
+            </td>
+        </tr>
+    </table>
+
+
+    <hr>
+    <h3 id="books">Books and teaching</h3>
+    <ul>
+        <li>The complete full stack web development course</li>
+        <li>Beginner to advance ASP.Net MVC course</li>
+    </ul>
+
+    <hr>
+
+    <h3 class="centere larg">Work Experience</h3>
+
+    <table cellspacing="10">
+        <thead>
+            <th>Date</th>
+            <th>Work</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2018-2021</td>
+                <td>Font-End developer</td>
+            </tr>
+            <tr>
+                <td>2021</td>
+                <td>DevOps engineer</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <h3 class="center">Skills</h3>
+
+    <table cellspacing="10">
+        <tr>
+            <td>Android Development</td>
+            <td>
+                <img src="images/star-icon.png " alt="" width="20" height="20">
+                <img src="images/star-icon.png " alt="" width="20" height="20">
+                <img src="images/star-icon.png " alt="" width="20" height="20">
+                <img src="images/star-icon.png " alt="" width="20" height="20">
+                <img src="images/star-icon.png " alt="" width="20" height="20">
+            </td>
+        </tr>
+        <tr>
+            <td>Web Development</td>
+            <td>
+                <img src="images/star-icon.png " alt="" width="20" height="20">
+                <img src="images/star-icon.png " alt="" width="20" height="20">
+                <img src="images/star-icon.png " alt="" width="20" height="20">
+                <img src="images/star-icon.png " alt="" width="20" height="20">
+                <img src="images/star-icon.png " alt="" width="20" height="20">
+            </td>
+        </tr>
+        <tr>
+            <td>Sleeping</td>
+            <td>
+                <img src="images/star-icon.png " alt="" width="20" height="20">
+                <img src="images/star-icon.png " alt="" width="20" height="20">
+                <img src="images/star-icon.png " alt="" width="20" height="20">
+                <img src="images/star-icon.png " alt="" width="20" height="20">
+                <img src="images/star-icon.png " alt="" width="20" height="20">
+            </td>
+        </tr>
+    </table>
+
+
+    <hr>
+    <a href="hobbies.html">My Hobbies</a>
+    <a href="contact.html">Contact Me</a>
+</body>
+
+</html>
